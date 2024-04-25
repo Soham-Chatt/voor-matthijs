@@ -21,6 +21,10 @@
         @apply text-xl;
     }
 
+    a {
+        @apply text-neutral-600 hover:text-neutral-400 transition;
+    }
+
     .dashboard-block {
         @apply bg-neutral-700 flex-1 flex flex-col justify-between p-4 rounded-lg border border-neutral-600;
         @apply hover:border-neutral-500 transition;

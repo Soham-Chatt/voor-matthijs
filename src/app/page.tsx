@@ -5,7 +5,12 @@ export default function Home() {
     <main className="flex flex-col items-center mx-auto gap-12 sm:gap-24 px-4 my-12 sm:my-24">
       <div>
         <h1 className="mb-4">Voor Matthijs</h1>
-        <p>Computer Science and Engineering | <Link href="/sterrenkunde" className="text-neutral-600 hover:text-neutral-400 transition">Sterrenkunde</Link></p>
+        <p>
+          Computer Science and Engineering |&nbsp;
+          <Link href="/sterrenkunde">Sterrenkunde</Link> |&nbsp;
+          <Link href="/soham">Voor Soham</Link> |&nbsp;
+          <Link href="/vs">VS</Link>
+        </p>
       </div>
 
       <div className="flex flex-row gap-4 flex-wrap">
@@ -40,7 +45,6 @@ export default function Home() {
             <div className="bg-green-500 animate-[progressGreen_3s_ease-out_forwards]"></div>
             <div className="bg-red-600 animate-[progressRed_3s_ease-out_forwards]"></div>
           </div>
-          <div></div>
         </div>
       </div>
 

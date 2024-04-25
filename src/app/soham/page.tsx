@@ -2,7 +2,7 @@ import Link from "next/link";
 import type {Metadata} from "next";
 
 export const metadata: Metadata = {
-  title: "Voor Soham",
+  title: "Voor Soham | Sterrenkunde",
   description: "Dashboard voor Soham met allemaal informatie over hoe hij niet/wel zijn BSA/studie Sterrenkunde gaat halen",
 };
 
@@ -10,7 +10,13 @@ export default function Soham() {
   return (
     <main className="flex flex-col items-center mx-auto gap-12 sm:gap-24 px-4 my-12 sm:my-24">
       <div>
-        <h1>Voor Soham</h1>
+        <h1 className="mb-4">Voor Soham</h1>
+        <p>
+          <Link href="/">Computer Science and Engineering</Link> |&nbsp;
+          <Link href="/sterrenkunde">Sterrenkunde</Link> |
+          Voor Soham |&nbsp;
+          <Link href="/vs">VS</Link>
+        </p>
       </div>
 
       <div className="flex flex-row gap-4 flex-wrap">
@@ -45,7 +51,6 @@ export default function Soham() {
             <div className="bg-green-500 animate-[progressSohamGreen_3s_ease-out_forwards]"></div>
             <div className="bg-red-600 animate-[progressSohamRed_3s_ease-out_forwards]"></div>
           </div>
-          <div></div>
         </div>
       </div>
 
