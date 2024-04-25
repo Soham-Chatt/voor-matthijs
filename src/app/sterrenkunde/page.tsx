@@ -1,4 +1,10 @@
 import Link from "next/link";
+import type {Metadata} from "next";
+
+export const metadata: Metadata = {
+  title: "Voor Matthijs | Sterrenkunde",
+  description: "Dashboard voor Matthijs met allemaal informatie over hoe hij niet/wel zijn BSA/studie Sterrenkunde gaat halen",
+};
 
 export default function Sterrenkunde() {
   return (
