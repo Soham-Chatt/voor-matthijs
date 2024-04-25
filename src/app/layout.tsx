@@ -9,8 +9,8 @@ const jetbrains_mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Voor Matthijs",
-  description: "Dashboard voor Matthijs met allemaal informatie over hoe hij niet/wel zijn BSA/studie gaat halen",
+  title: "Voor Matthijs | CSE",
+  description: "Dashboard voor Matthijs met allemaal informatie over hoe hij niet/wel zijn BSA/studie Computer Science and Engineering gaat halen",
 };
 
 export default function RootLayout({

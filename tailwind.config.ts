@@ -20,6 +20,14 @@ const config: Config = {
             width: "8.333333%",
           },
         },
+        progressSterrenkunde: {
+          "0%": {
+            width: "0%",
+          },
+          "100%": {
+            width: "0%",
+          },
+        },
       },
     },
   },

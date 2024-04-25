@@ -74,6 +74,16 @@
         color: rgb(34 197 94);
     }
 }
+@keyframes percentageCounterSterrenkunde {
+    from {
+        --percentage: 0;
+        color: rgb(220 38 38);
+    }
+    to {
+        --percentage: 50;
+        color: rgb(250 204 21);
+    }
+}
 @keyframes counter {
     from {
         --year: 2023;
@@ -86,5 +96,19 @@
         --ec-got: 15;
         --ec-failed: 15;
         --ec-todo: 150;
+    }
+}
+@keyframes counterSterrenkunde {
+    from {
+        --year: 2023;
+        --ec-got: 0;
+        --ec-failed: 0;
+        --ec-todo: 0;
+    }
+    to {
+        --year: 2029;
+        --ec-got: 0;
+        --ec-failed: 0;
+        --ec-todo: 180;
     }
 }

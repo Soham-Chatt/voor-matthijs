@@ -1,7 +1,12 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="flex flex-col items-center mx-auto gap-12 sm:gap-24 px-4 my-12 sm:my-24">
-      <h1>Voor Matthijs</h1>
+      <div>
+        <h1 className="mb-4">Voor Matthijs</h1>
+        <p>Computer Science and Engineering | <Link href="/sterrenkunde" className="text-neutral-600 hover:text-neutral-400 transition">Sterrenkunde</Link></p>
+      </div>
 
       <div className="flex flex-row gap-4 flex-wrap">
         <div className="dashboard-block">
@@ -15,7 +20,7 @@ export default function Home() {
         <div className="dashboard-block">
           <h3>Verwachte afstudeerdatum</h3>
           <p
-            className="text-2xl ">Februari <span className="animate-[counter_3s_ease-out_forwards] [counter-set:_num_var(--year)] before:content-[counter(num)]">
+            className="text-2xl ">April <span className="animate-[counter_3s_ease-out_forwards] [counter-set:_num_var(--year)] before:content-[counter(num)]">
             <span className="sr-only">2027</span></span></p>
           <div></div>
         </div>
@@ -172,7 +177,7 @@ export default function Home() {
                 <td className="hidden-cell">Machine Learning</td>
                 <td>5</td>
                 <td>⬜</td>
-                <td>Q1 24/25</td>
+                <td className="text-red-600">Q1 25/26</td>
               </tr>
               <tr>
                 <td>CSE2???</td>
@@ -180,7 +185,7 @@ export default function Home() {
                 <td className="hidden-cell">Variant Course A</td>
                 <td>5</td>
                 <td>⬜</td>
-                <td>Q1 24/25</td>
+                <td className="text-red-600">Q1 25/26</td>
               </tr>
 
               <tr>
@@ -197,7 +202,7 @@ export default function Home() {
                 <td className="hidden-cell">Computer Graphics</td>
                 <td>5</td>
                 <td>⬜</td>
-                <td>Q2 24/25</td>
+                <td className="text-red-600">Q2 25/26</td>
               </tr>
               <tr>
                 <td>CSE2???</td>
@@ -205,7 +210,7 @@ export default function Home() {
                 <td className="hidden-cell">Variant Course B</td>
                 <td>5</td>
                 <td>⬜</td>
-                <td>Q2 24/25</td>
+                <td className="text-red-600">Q2 25/26</td>
               </tr>
 
               <tr>
@@ -230,7 +235,7 @@ export default function Home() {
                 <td className="hidden-cell">Variant Course C</td>
                 <td>5</td>
                 <td>⬜</td>
-                <td>Q3 24/25</td>
+                <td className="text-red-600">Q3 25/26</td>
               </tr>
 
               <tr>
@@ -252,7 +257,7 @@ export default function Home() {
                 <td className="hidden-cell">Minor</td>
                 <td>30</td>
                 <td>⬜</td>
-                <td className="text-red-600">Q1-2 26/27</td>
+                <td className="text-red-600">Q2 26/27</td>
               </tr>
 
               <tr>
@@ -261,7 +266,7 @@ export default function Home() {
                 <td className="hidden-cell">Elective 1</td>
                 <td>5</td>
                 <td>⬜</td>
-                <td>Q3 25/26</td>
+                <td className="text-red-600">Q3 26/27</td>
               </tr>
               <tr>
                 <td>CSE3???</td>
@@ -269,7 +274,7 @@ export default function Home() {
                 <td className="hidden-cell">Elective 2</td>
                 <td>5</td>
                 <td>⬜</td>
-                <td>Q3 25/26</td>
+                <td className="text-red-600">Q3 26/27</td>
               </tr>
               <tr>
                 <td>CSE3???</td>
@@ -277,7 +282,7 @@ export default function Home() {
                 <td className="hidden-cell">Elective 3</td>
                 <td>5</td>
                 <td>⬜</td>
-                <td>Q3 25/26</td>
+                <td className="text-red-600">Q3 26/27</td>
               </tr>
 
               <tr>
