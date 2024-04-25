@@ -3,7 +3,7 @@ import type {Metadata} from "next";
 
 export const metadata: Metadata = {
   title: "Matthijs vs Soham | Sterrenkunde",
-  description: "Dashboard voor Soham met allemaal informatie over hoe hij niet/wel zijn BSA/studie Sterrenkunde gaat halen",
+  description: "Dashboard voor statistieken over Sterrenkunde tussen Matthijs en Soham",
 };
 
 export default function Soham() {
