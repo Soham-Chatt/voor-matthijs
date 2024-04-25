@@ -19,7 +19,7 @@ export default function Soham() {
         </p>
       </div>
 
-      <div className="flex flex-row gap-4 flex-wrap">
+      <div className="flex flex-col sm:flex-row gap-4 flex-wrap">
         <div className="dashboard-block">
           <h3>Matthijs</h3>
           <p
