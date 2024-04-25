@@ -12,7 +12,7 @@ const config: Config = {
         "mono": ["var(--font-jetbrains-mono)"],
       },
       keyframes: {
-        progress: {
+        progressGreen: {
           "0%": {
             width: "0%",
           },
@@ -20,7 +20,39 @@ const config: Config = {
             width: "8.333333%",
           },
         },
-        progressSterrenkunde: {
+        progressRed: {
+          "0%": {
+            width: "0%",
+          },
+          "100%": {
+            width: "8.333333%",
+          },
+        },
+        progressSterrenkundeGreen: {
+          "0%": {
+            width: "0%",
+          },
+          "100%": {
+            width: "0%",
+          },
+        },
+        progressSterrenkundeRed: {
+          "0%": {
+            width: "0%",
+          },
+          "100%": {
+            width: "0%",
+          },
+        },
+        progressSohamGreen: {
+          "0%": {
+            width: "0%",
+          },
+          "100%": {
+            width: "6.111111%",
+          },
+        },
+        progressSohamRed: {
           "0%": {
             width: "0%",
           },

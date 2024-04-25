@@ -21,6 +21,10 @@
         @apply text-xl;
     }
 
+    a {
+        @apply text-neutral-600 hover:text-neutral-400 transition;
+    }
+
     .dashboard-block {
         @apply bg-neutral-700 flex-1 flex flex-col justify-between p-4 rounded-lg border border-neutral-600;
         @apply hover:border-neutral-500 transition;
@@ -84,6 +88,17 @@
         color: rgb(250 204 21);
     }
 }
+@keyframes percentageCounterSoham {
+    from {
+        --percentage: 0;
+        color: rgb(220 38 38);
+    }
+    to {
+        --percentage: 100;
+        color: rgb(34 197 94);
+    }
+}
+
 @keyframes counter {
     from {
         --year: 2023;
@@ -110,5 +125,19 @@
         --ec-got: 0;
         --ec-failed: 0;
         --ec-todo: 180;
+    }
+}
+@keyframes counterSoham {
+    from {
+        --year: 2023;
+        --ec-got: 0;
+        --ec-failed: 0;
+        --ec-todo: 0;
+    }
+    to {
+        --year: 2027;
+        --ec-got: 11;
+        --ec-failed: 0;
+        --ec-todo: 169;
     }
 }
