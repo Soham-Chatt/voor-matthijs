@@ -37,8 +37,8 @@ export default function Home() {
             className="mb-3 animate-[counter_3s_ease-out_forwards] [counter-set:_num_var(--ec-todo)] before:content-[counter(num)]">
             <span className="sr-only">150</span> EC nog te volgen</p>
           <div className="flex flex-row h-8 bg-white mx-4 border border-neutral-500 hover:border-neutral-400 transition">
-            <div className="bg-green-500 animate-[progress_3s_ease-out_forwards]"></div>
-            <div className="bg-red-600 animate-[progress_3s_ease-out_forwards]"></div>
+            <div className="bg-green-500 animate-[progressGreen_3s_ease-out_forwards]"></div>
+            <div className="bg-red-600 animate-[progressRed_3s_ease-out_forwards]"></div>
           </div>
           <div></div>
         </div>
