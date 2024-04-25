@@ -1,7 +1,12 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="flex flex-col items-center mx-auto gap-12 sm:gap-24 px-4 my-12 sm:my-24">
-      <h1>Voor Matthijs</h1>
+      <div>
+        <h1 className="mb-4">Voor Matthijs</h1>
+        <p>Computer Science and Engineering | <Link href="/sterrenkunde" className="text-neutral-600 hover:text-neutral-400 transition">Sterrenkunde</Link></p>
+      </div>
 
       <div className="flex flex-row gap-4 flex-wrap">
         <div className="dashboard-block">
@@ -252,7 +257,7 @@ export default function Home() {
                 <td className="hidden-cell">Minor</td>
                 <td>30</td>
                 <td>⬜</td>
-                <td className="text-red-600">Q1-2 26/27</td>
+                <td className="text-red-600">Q2 26/27</td>
               </tr>
 
               <tr>
