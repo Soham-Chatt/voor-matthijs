@@ -2,32 +2,89 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@layer base {
+    main {
+        @apply font-mono text-white text-center;
+    }
+
+    h1 {
+        @apply text-6xl;
+    }
+    h2 {
+        @apply text-4xl;
+        @apply text-4xl;
+    }
+    h3 {
+        @apply text-3xl mb-2;
+    }
+    p {
+        @apply text-xl;
+    }
+
+    .dashboard-block {
+        @apply bg-neutral-700 flex-1 flex flex-col justify-between p-4 rounded-lg border border-neutral-600;
+        @apply hover:border-neutral-500 transition;
+    }
+
+
+    table {
+        @apply text-base;
+    }
+    td, th {
+        @apply px-4;
+    }
+    .hidden-cell {
+        @apply hidden lg:table-cell;
+    }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@property --percentage {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+@property --year {
+    syntax: "<integer>";
+    initial-value: 2023;
+    inherits: false;
+}
+@property --ec-got {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+@property --ec-failed {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+@property --ec-todo {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@keyframes percentageCounter {
+    from {
+        --percentage: 0;
+        color: rgb(220 38 38);
+    }
+    to {
+        --percentage: 80;
+        color: rgb(34 197 94);
+    }
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+@keyframes counter {
+    from {
+        --year: 2023;
+        --ec-got: 0;
+        --ec-failed: 0;
+        --ec-todo: 0;
+    }
+    to {
+        --year: 2027;
+        --ec-got: 15;
+        --ec-failed: 15;
+        --ec-todo: 150;
+    }
 }
