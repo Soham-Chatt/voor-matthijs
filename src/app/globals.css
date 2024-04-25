@@ -80,8 +80,8 @@
         color: rgb(220 38 38);
     }
     to {
-        --percentage: 33;
-        color: rgb(239 68 68);
+        --percentage: 50;
+        color: rgb(250 204 21);
     }
 }
 @keyframes counter {
@@ -106,7 +106,7 @@
         --ec-todo: 0;
     }
     to {
-        --year: 2027;
+        --year: 2029;
         --ec-got: 0;
         --ec-failed: 0;
         --ec-todo: 180;
