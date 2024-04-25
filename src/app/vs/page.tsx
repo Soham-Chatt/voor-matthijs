@@ -14,7 +14,7 @@ export default function Soham() {
         <p>
           <Link href="/">Computer Science and Engineering</Link> |&nbsp;
           <Link href="/sterrenkunde">Sterrenkunde</Link> |&nbsp;
-          <Link href="/soham">Voor Soham</Link> |&nbsp;
+          <Link href="/soham">Voor Soham</Link> |
           VS
         </p>
       </div>
