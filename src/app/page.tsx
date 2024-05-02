@@ -109,7 +109,7 @@ export default function Home() {
                 <td>WDT</td>
                 <td className="hidden-cell">Web- & Database Technology</td>
                 <td>5</td>
-                <td>❌</td>
+                <td>✅</td>
                 <td className="text-yellow-400">Q3 23/24</td>
               </tr>
 
@@ -118,7 +118,7 @@ export default function Home() {
                 <td>LA</td>
                 <td className="hidden-cell">Linear Algebra</td>
                 <td>5</td>
-                <td>⬜</td>
+                <td>❌</td>
                 <td className="text-yellow-400">Q4 23/24</td>
               </tr>
               <tr>
