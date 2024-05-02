@@ -108,9 +108,9 @@
     }
     to {
         --year: 2027;
-        --ec-got: 15;
+        --ec-got: 20;
         --ec-failed: 15;
-        --ec-todo: 150;
+        --ec-todo: 145;
     }
 }
 @keyframes counterSterrenkunde {

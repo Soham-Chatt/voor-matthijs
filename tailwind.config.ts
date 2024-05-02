@@ -17,7 +17,7 @@ const config: Config = {
             width: "0%",
           },
           "100%": {
-            width: "8.333333%",
+            width: "calc(20/180*100%)",
           },
         },
         progressRed: {
@@ -25,7 +25,7 @@ const config: Config = {
             width: "0%",
           },
           "100%": {
-            width: "8.333333%",
+            width: "calc(15/180*100%)",
           },
         },
         progressSterrenkundeGreen: {
