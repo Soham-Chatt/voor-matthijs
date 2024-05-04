@@ -17,7 +17,7 @@ const config: Config = {
             width: "0%",
           },
           "100%": {
-            width: "calc(20/180*100%)",
+            width: "calc(25/180*100%)",
           },
         },
         progressRed: {

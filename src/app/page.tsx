@@ -18,7 +18,7 @@ export default function Home() {
           <h3>Kans op BSA halen</h3>
           <p
             className="text-5xl text-green-500 animate-[percentageCounter_3s_ease-out_forwards] [counter-set:_num_var(--percentage)] before:content-[counter(num)]">
-            <span className="sr-only">80</span>%</p>
+            <span className="sr-only">82</span>%</p>
           <div></div>
         </div>
 
@@ -34,13 +34,13 @@ export default function Home() {
           <h3>EC overzicht</h3>
           <p
             className="animate-[counter_3s_ease-out_forwards] [counter-set:_num_var(--ec-got)] before:content-[counter(num)]">
-            <span className="sr-only">20</span> EC <span className="text-green-500">gehaald</span></p>
+            <span className="sr-only">25</span> EC <span className="text-green-500">gehaald</span></p>
           <p
             className="animate-[counter_3s_ease-out_forwards] [counter-set:_num_var(--ec-failed)] before:content-[counter(num)]">
             <span className="sr-only">15</span> EC <span className="text-red-600">gefaald</span></p>
           <p
             className="mb-3 animate-[counter_3s_ease-out_forwards] [counter-set:_num_var(--ec-todo)] before:content-[counter(num)]">
-            <span className="sr-only">145</span> EC nog te volgen</p>
+            <span className="sr-only">140</span> EC nog te volgen</p>
           <div className="flex flex-row h-8 bg-white mx-4 border border-neutral-500 hover:border-neutral-400 transition">
             <div className="bg-green-500 animate-[progressGreen_3s_ease-out_forwards]"></div>
             <div className="bg-red-600 animate-[progressRed_3s_ease-out_forwards]"></div>
@@ -134,7 +134,7 @@ export default function Home() {
                 <td>IDM</td>
                 <td className="hidden-cell">Information and Data Management</td>
                 <td>5</td>
-                <td>⬜</td>
+                <td>✅</td>
                 <td>Q3 23/24</td>
               </tr>
 
