@@ -74,7 +74,7 @@
         color: rgb(220 38 38);
     }
     to {
-        --percentage: 82;
+        --percentage: 90;
         color: rgb(34 197 94);
     }
 }
@@ -108,9 +108,9 @@
     }
     to {
         --year: 2027;
-        --ec-got: 25;
+        --ec-got: 30;
         --ec-failed: 15;
-        --ec-todo: 140;
+        --ec-todo: 135;
     }
 }
 @keyframes counterSterrenkunde {
