@@ -18,14 +18,14 @@ export default function Home() {
           <h3>Kans op BSA halen</h3>
           <p
             className="text-5xl text-green-500 animate-[percentageCounter_3s_ease-out_forwards] [counter-set:_num_var(--percentage)] before:content-[counter(num)]">
-            <span className="sr-only">90</span>%</p>
+            <span className="sr-only">71</span>%</p>
           <div></div>
         </div>
 
         <div className="dashboard-block">
           <h3>Verwachte afstudeerdatum</h3>
           <p
-            className="text-2xl ">April <span className="animate-[counter_3s_ease-out_forwards] [counter-set:_num_var(--year)] before:content-[counter(num)]">
+            className="text-2xl ">Juni <span className="animate-[counter_3s_ease-out_forwards] [counter-set:_num_var(--year)] before:content-[counter(num)]">
             <span className="sr-only">2027</span></span></p>
           <div></div>
         </div>
@@ -119,7 +119,7 @@ export default function Home() {
                 <td className="hidden-cell">Linear Algebra</td>
                 <td>5</td>
                 <td>❌</td>
-                <td className="text-yellow-400">Q4 23/24</td>
+                <td className="text-red-600">Q3 24/25</td>
               </tr>
               <tr>
                 <td>CSE1105</td>
@@ -189,7 +189,7 @@ export default function Home() {
                 <td className="hidden-cell">Variant Course A</td>
                 <td>5</td>
                 <td>⬜</td>
-                <td className="text-red-600">Q1 25/26</td>
+                <td>Q1 24/25</td>
               </tr>
 
               <tr>
@@ -214,7 +214,7 @@ export default function Home() {
                 <td className="hidden-cell">Variant Course B</td>
                 <td>5</td>
                 <td>⬜</td>
-                <td className="text-red-600">Q2 25/26</td>
+                <td>Q2 24/25</td>
               </tr>
 
               <tr>
@@ -231,7 +231,7 @@ export default function Home() {
                 <td className="hidden-cell">Concepts of Programming Languages</td>
                 <td>5</td>
                 <td>⬜</td>
-                <td>Q3 24/25</td>
+                <td className="text-red-600">Q3 25/26</td>
               </tr>
               <tr>
                 <td>CSE2???</td>
@@ -239,7 +239,7 @@ export default function Home() {
                 <td className="hidden-cell">Variant Course C</td>
                 <td>5</td>
                 <td>⬜</td>
-                <td className="text-red-600">Q3 25/26</td>
+                <td>Q3 24/25</td>
               </tr>
 
               <tr>
@@ -295,7 +295,7 @@ export default function Home() {
                 <td className="hidden-cell">Research Project</td>
                 <td>15</td>
                 <td>⬜</td>
-                <td>Q4 25/26</td>
+                <td className="text-red-600">Q4 26/27</td>
               </tr>
             </tbody>
           </table>
