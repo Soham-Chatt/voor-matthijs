@@ -18,7 +18,7 @@ export default function Home() {
           <h3>Kans op BSA halen</h3>
           <p
             className="text-5xl text-green-500 animate-[percentageCounter_3s_ease-out_forwards] [counter-set:_num_var(--percentage)] before:content-[counter(num)]">
-            <span className="sr-only">71</span>%</p>
+            <span className="sr-only">100</span>%</p>
           <div></div>
         </div>
 
